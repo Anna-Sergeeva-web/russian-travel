@@ -4,7 +4,8 @@
     max-width: 360px;
     z-index: 2;
     text-align: center;
-    font-family: 'Inter-Regular','Arial', 'Helvetica', sans-serif;
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    font-weight: normal;
     font-size: 18px;
     line-height: 1.22;
 }

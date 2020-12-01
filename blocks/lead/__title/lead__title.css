@@ -2,7 +2,8 @@
     margin: 0 0 32px 0;
     padding: 0;
     max-width: 720px;
-    font-family: 'Inter-Black','Arial', 'Helvetica', sans-serif;
+    font-family: 'Black','Arial', 'Helvetica', sans-serif;
+    font-weight: normal;
     font-size: 96px;
     line-height: 1.04;
     text-align: center;
@@ -16,7 +17,7 @@
      }
 } 
 
-@media screen (max-width: 425px) {  
+@media screen and (max-width: 425px) {  
     .lead__title { 
         max-width: 288px;
         font-size: 40px;
