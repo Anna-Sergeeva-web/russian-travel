@@ -2,7 +2,7 @@
 It`s a student project that appeared to train skills in the field of web designing. Here you can see files organized in BEM model(at least I hope so), grids, flexboxes and the main thing- the author(me) tried to adopt this page to different devices width(at least I hope so). 
 
 ### The reference to the project is below:
-[Link to Git](https://github.com/Anna-Sergeeva-web/russian-travel)
+[Link to GitPages](https://anna-sergeeva-web.github.io/russian-travel/)
 
 
 **Figma**
