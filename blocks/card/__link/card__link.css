@@ -1,0 +1,12 @@
+.card__link {
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}
+
+
+@media screen and (max-width: 320px) {  
+  .card__link { 
+     display: none;
+   }
+} 

@@ -1,0 +1,8 @@
+.intro__text {
+    margin: 0 0 32px 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Inter-Regular','Arial', 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.63;
+}

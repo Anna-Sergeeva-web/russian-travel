@@ -1,0 +1,29 @@
+.footer__link {
+  margin: 0 18px 0 0;
+  padding: 0;
+  color: #FFFFFF;
+  font-family: 'Inter-Regular','Arial', 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.125;
+  text-decoration: none;
+  transition: background-color 1s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.footer__link:last-child {
+    margin-right: 0;
+  }
+ 
+ @media screen and (max-width: 767px) {  
+    .footer__link { 
+       margin: 0 0 32px 0;
+       font-size: 24px;
+       line-height: 1;
+    }
+ }  
+
+ 

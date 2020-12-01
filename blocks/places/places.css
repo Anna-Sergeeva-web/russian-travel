@@ -1,0 +1,26 @@
+@import "../card/card.css";
+
+.places {
+    margin: 92px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {  
+    .places { 
+       margin: 90px 0;
+     }
+}
+
+@media screen and (max-width: 320px) {  
+    .places { 
+       margin: 64px 0 66px 0;
+     }
+}
+
+
+    
+    
+    

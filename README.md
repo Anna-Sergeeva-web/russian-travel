@@ -1,23 +1,12 @@
-# Проект 3: Путешествие по России
+# Travelling in Russia
+It`s a student project that appeared to train skills in the field of web designing. Here you can see files organized in BEM model(at least I hope so), grids, flexboxes and the main thing- the author(me) tried to adopt this page to different devices width(at least I hope so). 
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### The reference to the project is below:
 
-**Интро**
+#
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+* All the project was made in accordance with Figma layout[Link to Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!

@@ -1,0 +1,46 @@
+@import "../title/title.css";
+@import "../title/_place/title_place_card.css";
+@import "../card/__link/card__link.css";
+@import "../card/__url-heading/card__url-heading.css";
+@import "../card/__website/card__website.css";
+@import "../card/__image/card__image.css";
+@import "../card/__description/card__description.css";
+@import "../card/__paragraph/card__paragraph.css";
+
+  .card {
+     margin: 0 148px 80px 148px;
+     padding: 0;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: max-content 1fr;
+     column-gap: 40px;
+     row-gap: 48px;
+  }
+
+  .card:last-child {
+     margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 1024px) {  
+   .card { 
+      margin: 0 48px 80px 48px;
+      column-gap: 32px;
+    }
+} 
+
+@media screen and (max-width: 768px) {  
+   .card { 
+      margin: 0 24px 90px 24px;
+      column-gap: 28px;
+    }
+} 
+
+@media screen and (max-width: 425px) {  
+   .card { 
+      margin: 0 16px 49px 16px;
+      grid-template-columns: 1fr;
+      grid-template-rows: max-content;
+      row-gap: 32px;
+      column-gap: 0;
+    }
+} 

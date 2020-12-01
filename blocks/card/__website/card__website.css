@@ -1,0 +1,13 @@
+.card__website {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'Inter-Regular','Arial', 'Helvetica', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.card__website:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
