@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1440px) {  
     .lead { 
-       max-width: 1184px;
+       max-width: 1184px;   
     }
  } 
 
@@ -38,7 +38,7 @@
      }
 } 
 
-@media screen and (max-width: 320px) {  
+@media screen and (max-width: 767px) {  
     .lead { 
         margin: 0 0 64px 0;
      }
