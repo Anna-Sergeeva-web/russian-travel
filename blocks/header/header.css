@@ -1,29 +1,33 @@
-@import "../header/__menu-languages/header__menu-languages.css";
-@import "../header/__link/header__link.css";
+@import "./__menu-languages/header__menu-languages.css";
+@import "./__link/header__link.css";
 
 
 .header {
-    margin: 28px 48px 56px 48px;
-    padding: 0;
+    margin: 0;
+    padding: 28px 48px 56px 48px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-end; 
+    color: #FFFFFF;
+    min-width: 320;
+    max-width: 1600px;
+    background-color: #2A2C2F;
 }
 
 @media screen and (max-width: 1024px) {  
     .header { 
-      margin: 28px 48px 48px 48px;
+      padding: 28px 48px 48px 48px;
     }
  } 
 
  @media screen and (max-width: 768px) {  
     .header { 
-      margin: 28px 24px 48px 24px;
+      padding: 28px 24px 48px 24px;
     }
  } 
 
  @media screen and (max-width: 320px) {  
   .header { 
-    margin: 16px 16px 48px 16px;
+    padding: 16px 16px 48px 16px;
   }
 } 

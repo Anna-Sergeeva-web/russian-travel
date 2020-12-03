@@ -1,14 +1,12 @@
-@import "../title/title.css";
-@import "../title/_place/title_place_card.css";
-@import "../card/__link/card__link.css";
-@import "../card/__url-heading/card__url-heading.css";
-@import "../card/__website/card__website.css";
-@import "../card/__image/card__image.css";
-@import "../card/__description/card__description.css";
-@import "../card/__paragraph/card__paragraph.css";
+@import "./__link/card__link.css";
+@import "./__url-heading/card__url-heading.css";
+@import "./__website/card__website.css";
+@import "./__image/card__image.css";
+@import "./__description/card__description.css";
+@import "./__paragraph/card__paragraph.css";
 
   .card {
-     margin: 0 148px 80px 148px;
+     margin: 0 48px 80px 48px;
      padding: 0;
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -21,6 +19,12 @@
      margin-bottom: 0;
   }
 
+  @media screen and (min-width: 1440px) {  
+   .card { 
+      max-width: 1184px;
+   }
+  } 
+
   @media screen and (max-width: 1024px) {  
    .card { 
       margin: 0 48px 80px 48px;
@@ -30,14 +34,14 @@
 
 @media screen and (max-width: 768px) {  
    .card { 
-      margin: 0 24px 90px 24px;
+      margin: 0 24px 73px 24px;
       column-gap: 28px;
     }
 } 
 
 @media screen and (max-width: 425px) {  
    .card { 
-      margin: 0 16px 49px 16px;
+      margin: 0 0 49px 0;
       grid-template-columns: 1fr;
       grid-template-rows: max-content;
       row-gap: 32px;

@@ -1,11 +1,11 @@
 .page {
     margin: auto;
     padding: 0;
-    color: #E5E5E5;
-    max-width: 1440px;
+    color: #FFFFFF;
+    min-width: 320;
+    max-width: 1600px;
     background-color: #2A2C2F;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
   }
   

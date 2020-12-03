@@ -4,6 +4,12 @@
   align-self: end;
 }
 
+@media screen and (max-width: 767px) {  
+  .card__link { 
+     margin: 0 16px 0 16px;
+   }
+} 
+
 
 @media screen and (max-width: 320px) {  
   .card__link { 

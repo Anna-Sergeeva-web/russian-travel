@@ -1,14 +1,17 @@
-@import "../vendor/font.css";
+@import "../vendor/normalize.css";
 @import "../vendor/font.css";
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
+@import "../blocks/header/__link/_mode/header__link_mode_selected.css";
 @import "../blocks/logo/logo.css";
-@import "../blocks/content/content.css";
 @import "../blocks/lead/lead.css";
 @import "../blocks/intro/intro.css";
 @import "../blocks/title/title.css";
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/places/places.css";
 @import "../blocks/card/card.css";
+@import "../blocks/title/_place/title_place_card.css";
 @import "../blocks/cover/cover.css";
 @import "../blocks/footer/footer.css";
+
+/* если я меняю путь на ./ -стили перестают отображаться локально */
