@@ -15,7 +15,7 @@
      row-gap: 48px;
   }
 
-  @media screen and (max-width: 1281px) {  
+  @media screen and (max-width: 1281px) {
    .card { 
       max-width: 1184px;
 } 
