@@ -6,27 +6,23 @@
 @import "./__paragraph/card__paragraph.css";
 
   .card {
-     margin: 0 48px 80px 48px;
+     margin: 0 148px 80px 148px;
      padding: 0;
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: max-content 1fr;
      column-gap: 40px;
      row-gap: 48px;
+     max-width: 1184px;
   }
 
   .card:last-child {
      margin-bottom: 0;
   }
 
-  @media screen and (min-width: 1440px) {  
-   .card { 
-      max-width: 1184px;
-   }
-  } 
-
   @media screen and (max-width: 1024px) {  
    .card { 
+      margin: 0 48px 80px 48px;
       column-gap: 32px;
     }
 } 

@@ -8,11 +8,11 @@
     max-width: 690px;
 }
 
-@media screen and (min-width: 1440px) {  
+@media screen and (min-width: 1281px) {  
     .title { 
-       max-width: 1184px;
-    }
- } 
+        max-width: 1184px;
+     }
+} 
 
 
 @media screen and (max-width: 767px) {  

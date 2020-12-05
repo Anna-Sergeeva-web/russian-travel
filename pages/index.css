@@ -1,5 +1,6 @@
 @import "../vendor/normalize.css";
 @import "../vendor/font.css";
+@import "../blocks/common-style/common-style.css";
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__link/_mode/header__link_mode_selected.css";
@@ -14,4 +15,3 @@
 @import "../blocks/cover/cover.css";
 @import "../blocks/footer/footer.css";
 
-/* если я меняю путь на ./ -стили перестают отображаться локально */
