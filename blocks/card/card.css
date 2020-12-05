@@ -16,9 +16,11 @@
   }
 
   @media screen and (max-width: 1281px) {
-   .card { 
+     .card { 
       max-width: 1184px;
+     }
 } 
+
 
   .card:last-child {
      margin-bottom: 0;
