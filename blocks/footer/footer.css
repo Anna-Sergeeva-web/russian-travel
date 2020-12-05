@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
-    min-width: 320;
+    min-width: 320px;
 }
 
 @media screen and (max-width: 1281px) {  
