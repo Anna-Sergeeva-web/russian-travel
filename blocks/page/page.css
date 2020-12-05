@@ -8,5 +8,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1184px;
+    max-width: 984px;
   }
+
+  @media screen and (max-width: 1281px) {  
+    .page { 
+        max-width: 1184px;
+     }
+} 

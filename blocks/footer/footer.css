@@ -11,9 +11,13 @@
     align-items: center;
     color: #FFFFFF;
     min-width: 320;
-    max-width: 1184px;
 }
 
+@media screen and (max-width: 1281px) {  
+   .footer { 
+       max-width: 1184px;
+    }
+} 
 
 @media screen and (max-width: 767px) {  
     .footer { 

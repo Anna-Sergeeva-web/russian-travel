@@ -10,8 +10,13 @@
     align-items: flex-end;
     color: #FFFFFF;
     min-width: 320;
-    max-width: 1184px;
 }
+
+@media screen and (max-width: 1281px) {  
+  .header { 
+      max-width: 1184px;
+   }
+} 
 
 @media screen and (max-width: 1024px) {  
     .header { 
