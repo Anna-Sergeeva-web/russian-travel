@@ -13,12 +13,13 @@
     justify-self: center;
     min-width: calc(100% - 48px*2);
     min-height: 740px;
+    max-width: 1184px;
 }   
 
-@media screen and (max-width: 1281px) {  
+@media screen and (max-width: 1440px) {  
    .cover { 
-       max-width: 1184px;
-    }
+      min-width: 1184px;
+   }
 } 
 
 .cover:hover  .cover__overlay{
@@ -29,8 +30,8 @@
 @media screen and (max-width: 1024px) {  
     .cover { 
        margin: 0 0 92px 0;
-       width: 100%;
        min-height: 640px;
+       min-width: 100%;
     }
  } 
 
