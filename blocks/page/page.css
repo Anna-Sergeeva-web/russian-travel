@@ -1,5 +1,5 @@
 .page {
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     color: #FFFFFF;
     background-color: #2A2C2F;
@@ -7,12 +7,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 100%;
   }
-
-  @media screen and (max-width: 1281px) {  
-    .page { 
-        max-width: 1184px;
-     }
-} 
-
 
